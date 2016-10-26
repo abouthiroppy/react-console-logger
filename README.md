@@ -15,15 +15,14 @@ const myLogger = new Logger();
 
 const root = () => (
   <div>
-    <h1>react-console-logger</h1>
     <ConsoleLogger
       logger={myLogger}
     />
   </div>
 );
 
-mylogger.log('log');
-mylogger.info('info');
-mylogger.warn('warn');
-mylogger.error('error');
+myLogger.log('log');
+myLogger.info('info');
+myLogger.warn('warn');
+myLogger.error('error');
 ```
