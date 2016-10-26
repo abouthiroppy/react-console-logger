@@ -1,6 +1,6 @@
 {
   "name": "react-console-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A logger is built by React.",
   "main": "lib/index.js",
   "scripts": {
