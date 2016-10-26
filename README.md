@@ -21,4 +21,9 @@ const root = () => (
     />
   </div>
 );
+
+mylogger.log('log');
+mylogger.info('info');
+mylogger.warn('warn');
+mylogger.error('error');
 ```

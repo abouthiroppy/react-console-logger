@@ -7,13 +7,32 @@ const myLogger = new Logger();
 const root = () => (
   <div>
     <h1>react-console-logger</h1>
-    <ConsoleLogger
-      logger={myLogger}
+    <div
       style={{
-        margin: 'auto',
-        lineHeight: 1.5
+        width: 500,
+        display: 'flex',
+        margin: 'auto'
       }}
-    />
+    >
+      <ConsoleLogger
+        logger={myLogger}
+        style={{
+          margin: 'auto',
+          lineHeight: 1.5
+        }}
+      />
+      <div>
+        <button
+          onClick={() => myLogger.info('click')}
+          style={{
+            width: 100,
+            height: 30
+          }}
+        >
+          click!
+        </button>
+      </div>
+    </div>
   </div>
 );
 
